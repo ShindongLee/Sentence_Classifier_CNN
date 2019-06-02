@@ -1,5 +1,4 @@
 # Sentence_Classifier_CNN
-Pytorch Implementation of Sentence Classification Model Using Convolution Neural Networks
 
 Shindong Lee  
 
