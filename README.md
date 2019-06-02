@@ -18,12 +18,19 @@ or from (https://drive.google.com/file/d/0B7XkCwpI5KDYNlNUTTlSS21pQmM/edit)
 
 3. run following code    
 
-python train.py --model [model] --num_epochs [num_epochs] --learning_rate [learning_rate] --mini_batch_size [mini_batch_size]
+```bash
+$ python train.py --model [model] --num_epochs [num_epochs] --learning_rate [learning_rate] --mini_batch_size [mini_batch_size]
+```
 
+ex)  
 ```bash
 $ python train.py --model CNN-rand --num_epochs 50 --learning_rate 0.0001 --mini_batch_size 50
 ```
-or simply,
+
+<p align="center">
+  or simply,
+</p>
+  
 
 ```bash
 $ python train.py --model CNN-rand
