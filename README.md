@@ -20,13 +20,13 @@ or from (https://drive.google.com/file/d/0B7XkCwpI5KDYNlNUTTlSS21pQmM/edit)
 
 python train.py --model [model] --num_epochs [num_epochs] --learning_rate [learning_rate] --mini_batch_size [mini_batch_size]
 
-'''bash
+```bash
 $ python train.py --model CNN-rand --num_epochs 50 --learning_rate 0.0001 --mini_batch_size 50
-'''
+```
 or simply,
 
-'''bash
+```bash
 $ python train.py --model CNN-rand
-'''
+```
 
 model should be one of [CNN-rand, CNN-static, CNN-non-static, CNN-multichannel]  
