@@ -38,7 +38,11 @@ Time for validation < 1 second
 (original implementation by Kim Yoon with Theano: https://github.com/yoonkim/CNN_sentence)  
 
 Movie Reivew Dataset: (It's already inside the repo)  
-(http://www.cs.cornell.edu/People/pabo/movie-review-data/rt-polaritydata.tar.gz)
+(http://www.cs.cornell.edu/People/pabo/movie-review-data/rt-polaritydata.tar.gz)  
+
+## Difference From Paper
+
+Paper used Adadelta, but I used Adam Optimizer
 
 ## How to Run
 
