@@ -11,9 +11,9 @@ class CNN(nn.Module):
     
         super(CNN, self).__init__()
         self.embedding = nn.Embedding(num_embeddings = word_size, embedding_dim = 300)
-        self.conv1d_3 = nn.Conv1d(in_channels = 300, out_channels = 100, kernel_size = 3, stride = 1, padding = 0)
-        self.conv1d_4 = nn.Conv1d(in_channels = 300, out_channels = 100, kernel_size = 4, stride = 1, padding = 0)
-        self.conv1d_5 = nn.Conv1d(in_channels = 300, out_channels = 100, kernel_size = 5, stride = 1, padding = 0)
+        self.conv1d_3 = nn.Conv1d(in_channels = 300, out_channels = 100, kernel_size = 3, stride = 1, padding = 2)
+        self.conv1d_4 = nn.Conv1d(in_channels = 300, out_channels = 100, kernel_size = 4, stride = 1, padding = 3)
+        self.conv1d_5 = nn.Conv1d(in_channels = 300, out_channels = 100, kernel_size = 5, stride = 1, padding = 4)
         self.maxpool = nn.AdaptiveMaxPool1d(output_size = 1)
         self.dropout = nn.Dropout(p = 0.5)
         self.fullyconnected = nn.Linear(in_features = 300, out_features = 2, bias = True)
@@ -49,9 +49,9 @@ class CNN_multichannel(nn.Module):
         self.embedding_static = nn.Embedding(num_embeddings = word_size, embedding_dim = 300)
         self.embedding_non_static = nn.Embedding(num_embeddings = word_size, embedding_dim = 300)
         
-        self.conv1d_3 = nn.Conv1d(in_channels = 300, out_channels = 100, kernel_size = 3, stride = 1, padding = 0)
-        self.conv1d_4 = nn.Conv1d(in_channels = 300, out_channels = 100, kernel_size = 4, stride = 1, padding = 0)
-        self.conv1d_5 = nn.Conv1d(in_channels = 300, out_channels = 100, kernel_size = 5, stride = 1, padding = 0)
+        self.conv1d_3 = nn.Conv1d(in_channels = 300, out_channels = 100, kernel_size = 3, stride = 1, padding = 2)
+        self.conv1d_4 = nn.Conv1d(in_channels = 300, out_channels = 100, kernel_size = 4, stride = 1, padding = 3)
+        self.conv1d_5 = nn.Conv1d(in_channels = 300, out_channels = 100, kernel_size = 5, stride = 1, padding = 4)
         
         self.maxpool = nn.AdaptiveMaxPool1d(output_size = 1)
         self.dropout = nn.Dropout(p = 0.5)

@@ -1,0 +1,778 @@
+Start Training...
+Model: CNN-non-static 
+Total Epochs: 51 
+Learning Rate: 0.0001 
+Mini Batch Size: 50
+File Loaded
+Word Size: 21445
+Time Elapsed for Setting Embedding: 00:00:53
+CNN-non-static
+-------------------------------------------------------------------
+Epoch: 1
+loss: 0.6871867
+loss: 0.6788025
+loss: 0.6873415
+loss: 0.6739563
+loss: 0.6815452
+loss: 0.6676334
+Time Elapsed for This Epoch: 00:00:00
+
+Time Elapsed for This Validation: 00:00:00
+accuracy: 68.66792 %
+Best Accuracy: 68.66792 %, Best Epoch: 0001
+-------------------------------------------------------------------
+
+-------------------------------------------------------------------
+Epoch: 2
+loss: 0.6515931
+loss: 0.6429360
+loss: 0.6417904
+loss: 0.6274680
+loss: 0.6544561
+loss: 0.6176903
+Time Elapsed for This Epoch: 00:00:00
+
+Time Elapsed for This Validation: 00:00:00
+accuracy: 73.07692 %
+Best Accuracy: 73.07692 %, Best Epoch: 0002
+-------------------------------------------------------------------
+
+-------------------------------------------------------------------
+Epoch: 3
+loss: 0.6090677
+loss: 0.5202676
+loss: 0.5459831
+loss: 0.5138884
+loss: 0.5111688
+loss: 0.5136275
+Time Elapsed for This Epoch: 00:00:00
+
+Time Elapsed for This Validation: 00:00:00
+accuracy: 77.57974 %
+Best Accuracy: 77.57974 %, Best Epoch: 0003
+-------------------------------------------------------------------
+
+-------------------------------------------------------------------
+Epoch: 4
+loss: 0.4464392
+loss: 0.4063918
+loss: 0.3286358
+loss: 0.4014218
+loss: 0.4055752
+loss: 0.3948936
+Time Elapsed for This Epoch: 00:00:00
+
+Time Elapsed for This Validation: 00:00:00
+accuracy: 79.08068 %
+Best Accuracy: 79.08068 %, Best Epoch: 0004
+-------------------------------------------------------------------
+
+-------------------------------------------------------------------
+Epoch: 5
+loss: 0.2955982
+loss: 0.2903845
+loss: 0.3148126
+loss: 0.3480520
+loss: 0.3221182
+loss: 0.3042632
+Time Elapsed for This Epoch: 00:00:00
+
+Time Elapsed for This Validation: 00:00:00
+accuracy: 80.48780 %
+Best Accuracy: 80.48780 %, Best Epoch: 0005
+-------------------------------------------------------------------
+
+-------------------------------------------------------------------
+Epoch: 6
+loss: 0.3020352
+loss: 0.2987848
+loss: 0.2436603
+loss: 0.2687581
+loss: 0.1735989
+loss: 0.2754498
+Time Elapsed for This Epoch: 00:00:01
+
+Time Elapsed for This Validation: 00:00:00
+accuracy: 81.33208 %
+Best Accuracy: 81.33208 %, Best Epoch: 0006
+-------------------------------------------------------------------
+
+-------------------------------------------------------------------
+Epoch: 7
+loss: 0.1877392
+loss: 0.1876076
+loss: 0.2006295
+loss: 0.1722806
+loss: 0.1392175
+loss: 0.2996980
+Time Elapsed for This Epoch: 00:00:00
+
+Time Elapsed for This Validation: 00:00:00
+accuracy: 81.05066 %
+Best Accuracy: 81.33208 %, Best Epoch: 0006
+-------------------------------------------------------------------
+
+-------------------------------------------------------------------
+Epoch: 8
+loss: 0.1346736
+loss: 0.2217892
+loss: 0.1658298
+loss: 0.1477903
+loss: 0.1203905
+loss: 0.0644810
+Time Elapsed for This Epoch: 00:00:00
+
+Time Elapsed for This Validation: 00:00:00
+accuracy: 80.76923 %
+Best Accuracy: 81.33208 %, Best Epoch: 0006
+-------------------------------------------------------------------
+
+-------------------------------------------------------------------
+Epoch: 9
+loss: 0.0858832
+loss: 0.1055088
+loss: 0.1128038
+loss: 0.1086764
+loss: 0.0834017
+loss: 0.2154091
+Time Elapsed for This Epoch: 00:00:00
+
+Time Elapsed for This Validation: 00:00:00
+accuracy: 79.92495 %
+Best Accuracy: 81.33208 %, Best Epoch: 0006
+-------------------------------------------------------------------
+
+-------------------------------------------------------------------
+Epoch: 10
+loss: 0.0743978
+loss: 0.1166454
+loss: 0.0493494
+loss: 0.1355890
+loss: 0.0847032
+loss: 0.1047902
+Time Elapsed for This Epoch: 00:00:00
+
+Time Elapsed for This Validation: 00:00:00
+accuracy: 80.48780 %
+Best Accuracy: 81.33208 %, Best Epoch: 0006
+-------------------------------------------------------------------
+
+-------------------------------------------------------------------
+Epoch: 11
+loss: 0.0438764
+loss: 0.0573168
+loss: 0.0863386
+loss: 0.0604816
+loss: 0.0555239
+loss: 0.0394768
+Time Elapsed for This Epoch: 00:00:00
+
+Time Elapsed for This Validation: 00:00:00
+accuracy: 79.54972 %
+Best Accuracy: 81.33208 %, Best Epoch: 0006
+-------------------------------------------------------------------
+
+-------------------------------------------------------------------
+Epoch: 12
+loss: 0.0475584
+loss: 0.0355420
+loss: 0.0449634
+loss: 0.0801841
+loss: 0.1237197
+loss: 0.0580801
+Time Elapsed for This Epoch: 00:00:00
+
+Time Elapsed for This Validation: 00:00:00
+accuracy: 79.64353 %
+Best Accuracy: 81.33208 %, Best Epoch: 0006
+-------------------------------------------------------------------
+
+-------------------------------------------------------------------
+Epoch: 13
+loss: 0.0477133
+loss: 0.0326333
+loss: 0.0322720
+loss: 0.0268548
+loss: 0.0235036
+loss: 0.0293553
+Time Elapsed for This Epoch: 00:00:00
+
+Time Elapsed for This Validation: 00:00:00
+accuracy: 79.54972 %
+Best Accuracy: 81.33208 %, Best Epoch: 0006
+-------------------------------------------------------------------
+
+-------------------------------------------------------------------
+Epoch: 14
+loss: 0.0777101
+loss: 0.0417840
+loss: 0.0130128
+loss: 0.0161262
+loss: 0.0299609
+loss: 0.0423350
+Time Elapsed for This Epoch: 00:00:00
+
+Time Elapsed for This Validation: 00:00:00
+accuracy: 79.45591 %
+Best Accuracy: 81.33208 %, Best Epoch: 0006
+-------------------------------------------------------------------
+
+-------------------------------------------------------------------
+Epoch: 15
+loss: 0.0070996
+loss: 0.0358901
+loss: 0.0287087
+loss: 0.0284713
+loss: 0.0181261
+loss: 0.0130672
+Time Elapsed for This Epoch: 00:00:00
+
+Time Elapsed for This Validation: 00:00:00
+accuracy: 79.26829 %
+Best Accuracy: 81.33208 %, Best Epoch: 0006
+-------------------------------------------------------------------
+
+-------------------------------------------------------------------
+Epoch: 16
+loss: 0.0071050
+loss: 0.0336082
+loss: 0.0253536
+loss: 0.0237321
+loss: 0.0137003
+loss: 0.0642066
+Time Elapsed for This Epoch: 00:00:00
+
+Time Elapsed for This Validation: 00:00:00
+accuracy: 79.64353 %
+Best Accuracy: 81.33208 %, Best Epoch: 0006
+-------------------------------------------------------------------
+
+-------------------------------------------------------------------
+Epoch: 17
+loss: 0.0136499
+loss: 0.0450764
+loss: 0.0118146
+loss: 0.0183001
+loss: 0.0194721
+loss: 0.0083930
+Time Elapsed for This Epoch: 00:00:00
+
+Time Elapsed for This Validation: 00:00:00
+accuracy: 79.83114 %
+Best Accuracy: 81.33208 %, Best Epoch: 0006
+-------------------------------------------------------------------
+
+-------------------------------------------------------------------
+Epoch: 18
+loss: 0.0053551
+loss: 0.0111470
+loss: 0.0100998
+loss: 0.0113577
+loss: 0.0073024
+loss: 0.0112046
+Time Elapsed for This Epoch: 00:00:00
+
+Time Elapsed for This Validation: 00:00:00
+accuracy: 79.45591 %
+Best Accuracy: 81.33208 %, Best Epoch: 0006
+-------------------------------------------------------------------
+
+-------------------------------------------------------------------
+Epoch: 19
+loss: 0.0392482
+loss: 0.0043362
+loss: 0.0123716
+loss: 0.0053799
+loss: 0.0053484
+loss: 0.0188822
+Time Elapsed for This Epoch: 00:00:00
+
+Time Elapsed for This Validation: 00:00:00
+accuracy: 79.73734 %
+Best Accuracy: 81.33208 %, Best Epoch: 0006
+-------------------------------------------------------------------
+
+-------------------------------------------------------------------
+Epoch: 20
+loss: 0.0082779
+loss: 0.0036394
+loss: 0.0069130
+loss: 0.0029466
+loss: 0.0091882
+loss: 0.0061567
+Time Elapsed for This Epoch: 00:00:00
+
+Time Elapsed for This Validation: 00:00:00
+accuracy: 79.64353 %
+Best Accuracy: 81.33208 %, Best Epoch: 0006
+-------------------------------------------------------------------
+
+-------------------------------------------------------------------
+Epoch: 21
+loss: 0.0103371
+loss: 0.0043075
+loss: 0.0039509
+loss: 0.0208243
+loss: 0.0082388
+loss: 0.0048013
+Time Elapsed for This Epoch: 00:00:00
+
+Time Elapsed for This Validation: 00:00:00
+accuracy: 79.83114 %
+Best Accuracy: 81.33208 %, Best Epoch: 0006
+-------------------------------------------------------------------
+
+-------------------------------------------------------------------
+Epoch: 22
+loss: 0.0042981
+loss: 0.0099801
+loss: 0.0031169
+loss: 0.0026401
+loss: 0.0060724
+loss: 0.0030258
+Time Elapsed for This Epoch: 00:00:00
+
+Time Elapsed for This Validation: 00:00:00
+accuracy: 79.83114 %
+Best Accuracy: 81.33208 %, Best Epoch: 0006
+-------------------------------------------------------------------
+
+-------------------------------------------------------------------
+Epoch: 23
+loss: 0.0020015
+loss: 0.0137721
+loss: 0.0020211
+loss: 0.0104625
+loss: 0.0039362
+loss: 0.0074997
+Time Elapsed for This Epoch: 00:00:00
+
+Time Elapsed for This Validation: 00:00:00
+accuracy: 79.73734 %
+Best Accuracy: 81.33208 %, Best Epoch: 0006
+-------------------------------------------------------------------
+
+-------------------------------------------------------------------
+Epoch: 24
+loss: 0.0026524
+loss: 0.0020405
+loss: 0.0028390
+loss: 0.0029650
+loss: 0.0019511
+loss: 0.0040202
+Time Elapsed for This Epoch: 00:00:00
+
+Time Elapsed for This Validation: 00:00:00
+accuracy: 79.54972 %
+Best Accuracy: 81.33208 %, Best Epoch: 0006
+-------------------------------------------------------------------
+
+-------------------------------------------------------------------
+Epoch: 25
+loss: 0.0204503
+loss: 0.0039623
+loss: 0.0025188
+loss: 0.0020153
+loss: 0.0024245
+loss: 0.0020264
+Time Elapsed for This Epoch: 00:00:00
+
+Time Elapsed for This Validation: 00:00:00
+accuracy: 79.73734 %
+Best Accuracy: 81.33208 %, Best Epoch: 0006
+-------------------------------------------------------------------
+
+-------------------------------------------------------------------
+Epoch: 26
+loss: 0.0029245
+loss: 0.0033888
+loss: 0.0020901
+loss: 0.0031033
+loss: 0.0025850
+loss: 0.0028201
+Time Elapsed for This Epoch: 00:00:00
+
+Time Elapsed for This Validation: 00:00:00
+accuracy: 79.64353 %
+Best Accuracy: 81.33208 %, Best Epoch: 0006
+-------------------------------------------------------------------
+
+-------------------------------------------------------------------
+Epoch: 27
+loss: 0.0008077
+loss: 0.0021119
+loss: 0.0011317
+loss: 0.0019377
+loss: 0.0032086
+loss: 0.0019871
+Time Elapsed for This Epoch: 00:00:00
+
+Time Elapsed for This Validation: 00:00:00
+accuracy: 79.17448 %
+Best Accuracy: 81.33208 %, Best Epoch: 0006
+-------------------------------------------------------------------
+
+-------------------------------------------------------------------
+Epoch: 28
+loss: 0.0006827
+loss: 0.0010907
+loss: 0.0025127
+loss: 0.0049950
+loss: 0.0024937
+loss: 0.0027309
+Time Elapsed for This Epoch: 00:00:00
+
+Time Elapsed for This Validation: 00:00:00
+accuracy: 79.45591 %
+Best Accuracy: 81.33208 %, Best Epoch: 0006
+-------------------------------------------------------------------
+
+-------------------------------------------------------------------
+Epoch: 29
+loss: 0.0010305
+loss: 0.0025275
+loss: 0.0016369
+loss: 0.0011522
+loss: 0.0010019
+loss: 0.0010097
+Time Elapsed for This Epoch: 00:00:00
+
+Time Elapsed for This Validation: 00:00:00
+accuracy: 79.45591 %
+Best Accuracy: 81.33208 %, Best Epoch: 0006
+-------------------------------------------------------------------
+
+-------------------------------------------------------------------
+Epoch: 30
+loss: 0.0006815
+loss: 0.0019203
+loss: 0.0016366
+loss: 0.0011095
+loss: 0.0019737
+loss: 0.0015964
+Time Elapsed for This Epoch: 00:00:00
+
+Time Elapsed for This Validation: 00:00:00
+accuracy: 79.45591 %
+Best Accuracy: 81.33208 %, Best Epoch: 0006
+-------------------------------------------------------------------
+
+-------------------------------------------------------------------
+Epoch: 31
+loss: 0.0024795
+loss: 0.0005125
+loss: 0.0019346
+loss: 0.0018273
+loss: 0.0015980
+loss: 0.0026587
+Time Elapsed for This Epoch: 00:00:00
+
+Time Elapsed for This Validation: 00:00:00
+accuracy: 79.17448 %
+Best Accuracy: 81.33208 %, Best Epoch: 0006
+-------------------------------------------------------------------
+
+-------------------------------------------------------------------
+Epoch: 32
+loss: 0.0007404
+loss: 0.0010064
+loss: 0.0029022
+loss: 0.0013840
+loss: 0.0008378
+loss: 0.0034795
+Time Elapsed for This Epoch: 00:00:00
+
+Time Elapsed for This Validation: 00:00:00
+accuracy: 79.26829 %
+Best Accuracy: 81.33208 %, Best Epoch: 0006
+-------------------------------------------------------------------
+
+-------------------------------------------------------------------
+Epoch: 33
+loss: 0.0003539
+loss: 0.0006942
+loss: 0.0005659
+loss: 0.0012145
+loss: 0.0006571
+loss: 0.0012154
+Time Elapsed for This Epoch: 00:00:00
+
+Time Elapsed for This Validation: 00:00:00
+accuracy: 79.08068 %
+Best Accuracy: 81.33208 %, Best Epoch: 0006
+-------------------------------------------------------------------
+
+-------------------------------------------------------------------
+Epoch: 34
+loss: 0.0029399
+loss: 0.0005465
+loss: 0.0028733
+loss: 0.0022689
+loss: 0.0005100
+loss: 0.0008177
+Time Elapsed for This Epoch: 00:00:00
+
+Time Elapsed for This Validation: 00:00:00
+accuracy: 79.08068 %
+Best Accuracy: 81.33208 %, Best Epoch: 0006
+-------------------------------------------------------------------
+
+-------------------------------------------------------------------
+Epoch: 35
+loss: 0.0005718
+loss: 0.0006614
+loss: 0.0006074
+loss: 0.0007281
+loss: 0.0018386
+loss: 0.0008039
+Time Elapsed for This Epoch: 00:00:00
+
+Time Elapsed for This Validation: 00:00:00
+accuracy: 79.17448 %
+Best Accuracy: 81.33208 %, Best Epoch: 0006
+-------------------------------------------------------------------
+
+-------------------------------------------------------------------
+Epoch: 36
+loss: 0.0002750
+loss: 0.0004826
+loss: 0.0007397
+loss: 0.0004842
+loss: 0.0007751
+loss: 0.0004754
+Time Elapsed for This Epoch: 00:00:00
+
+Time Elapsed for This Validation: 00:00:00
+accuracy: 78.98687 %
+Best Accuracy: 81.33208 %, Best Epoch: 0006
+-------------------------------------------------------------------
+
+-------------------------------------------------------------------
+Epoch: 37
+loss: 0.0006922
+loss: 0.0012741
+loss: 0.0007237
+loss: 0.0005200
+loss: 0.0007691
+loss: 0.0008136
+Time Elapsed for This Epoch: 00:00:00
+
+Time Elapsed for This Validation: 00:00:00
+accuracy: 78.70544 %
+Best Accuracy: 81.33208 %, Best Epoch: 0006
+-------------------------------------------------------------------
+
+-------------------------------------------------------------------
+Epoch: 38
+loss: 0.0006798
+loss: 0.0011026
+loss: 0.0009662
+loss: 0.0008911
+loss: 0.0010029
+loss: 0.0006421
+Time Elapsed for This Epoch: 00:00:00
+
+Time Elapsed for This Validation: 00:00:00
+accuracy: 78.79925 %
+Best Accuracy: 81.33208 %, Best Epoch: 0006
+-------------------------------------------------------------------
+
+-------------------------------------------------------------------
+Epoch: 39
+loss: 0.0001954
+loss: 0.0003560
+loss: 0.0006828
+loss: 0.0004130
+loss: 0.0004571
+loss: 0.0003527
+Time Elapsed for This Epoch: 00:00:00
+
+Time Elapsed for This Validation: 00:00:00
+accuracy: 78.89306 %
+Best Accuracy: 81.33208 %, Best Epoch: 0006
+-------------------------------------------------------------------
+
+-------------------------------------------------------------------
+Epoch: 40
+loss: 0.0007133
+loss: 0.0006409
+loss: 0.0002201
+loss: 0.0004447
+loss: 0.0074004
+loss: 0.0003090
+Time Elapsed for This Epoch: 00:00:00
+
+Time Elapsed for This Validation: 00:00:00
+accuracy: 78.70544 %
+Best Accuracy: 81.33208 %, Best Epoch: 0006
+-------------------------------------------------------------------
+
+-------------------------------------------------------------------
+Epoch: 41
+loss: 0.0009513
+loss: 0.0002220
+loss: 0.0008068
+loss: 0.0010737
+loss: 0.0001779
+loss: 0.0003147
+Time Elapsed for This Epoch: 00:00:00
+
+Time Elapsed for This Validation: 00:00:00
+accuracy: 78.51782 %
+Best Accuracy: 81.33208 %, Best Epoch: 0006
+-------------------------------------------------------------------
+
+-------------------------------------------------------------------
+Epoch: 42
+loss: 0.0004096
+loss: 0.0024648
+loss: 0.0002589
+loss: 0.0002383
+loss: 0.0002521
+loss: 0.0004577
+Time Elapsed for This Epoch: 00:00:00
+
+Time Elapsed for This Validation: 00:00:00
+accuracy: 78.61163 %
+Best Accuracy: 81.33208 %, Best Epoch: 0006
+-------------------------------------------------------------------
+
+-------------------------------------------------------------------
+Epoch: 43
+loss: 0.0005388
+loss: 0.0002150
+loss: 0.0003333
+loss: 0.0001303
+loss: 0.0009288
+loss: 0.0009465
+Time Elapsed for This Epoch: 00:00:00
+
+Time Elapsed for This Validation: 00:00:00
+accuracy: 78.79925 %
+Best Accuracy: 81.33208 %, Best Epoch: 0006
+-------------------------------------------------------------------
+
+-------------------------------------------------------------------
+Epoch: 44
+loss: 0.0007535
+loss: 0.0001885
+loss: 0.0004694
+loss: 0.0005143
+loss: 0.0004843
+loss: 0.0005323
+Time Elapsed for This Epoch: 00:00:00
+
+Time Elapsed for This Validation: 00:00:00
+accuracy: 78.51782 %
+Best Accuracy: 81.33208 %, Best Epoch: 0006
+-------------------------------------------------------------------
+
+-------------------------------------------------------------------
+Epoch: 45
+loss: 0.0005309
+loss: 0.0003946
+loss: 0.0009382
+loss: 0.0005228
+loss: 0.0003512
+loss: 0.0002614
+Time Elapsed for This Epoch: 00:00:00
+
+Time Elapsed for This Validation: 00:00:00
+accuracy: 78.33021 %
+Best Accuracy: 81.33208 %, Best Epoch: 0006
+-------------------------------------------------------------------
+
+-------------------------------------------------------------------
+Epoch: 46
+loss: 0.0003568
+loss: 0.0002395
+loss: 0.0004278
+loss: 0.0006471
+loss: 0.0002711
+loss: 0.0004422
+Time Elapsed for This Epoch: 00:00:00
+
+Time Elapsed for This Validation: 00:00:00
+accuracy: 78.79925 %
+Best Accuracy: 81.33208 %, Best Epoch: 0006
+-------------------------------------------------------------------
+
+-------------------------------------------------------------------
+Epoch: 47
+loss: 0.0004541
+loss: 0.0004878
+loss: 0.0004698
+loss: 0.0001933
+loss: 0.0001467
+loss: 0.0002672
+Time Elapsed for This Epoch: 00:00:00
+
+Time Elapsed for This Validation: 00:00:00
+accuracy: 78.79925 %
+Best Accuracy: 81.33208 %, Best Epoch: 0006
+-------------------------------------------------------------------
+
+-------------------------------------------------------------------
+Epoch: 48
+loss: 0.0001545
+loss: 0.0001820
+loss: 0.0002885
+loss: 0.0002147
+loss: 0.0003278
+loss: 0.0000759
+Time Elapsed for This Epoch: 00:00:00
+
+Time Elapsed for This Validation: 00:00:00
+accuracy: 78.51782 %
+Best Accuracy: 81.33208 %, Best Epoch: 0006
+-------------------------------------------------------------------
+
+-------------------------------------------------------------------
+Epoch: 49
+loss: 0.0004103
+loss: 0.0001668
+loss: 0.0001312
+loss: 0.0001061
+loss: 0.0004203
+loss: 0.0002045
+Time Elapsed for This Epoch: 00:00:00
+
+Time Elapsed for This Validation: 00:00:00
+accuracy: 78.51782 %
+Best Accuracy: 81.33208 %, Best Epoch: 0006
+-------------------------------------------------------------------
+
+-------------------------------------------------------------------
+Epoch: 50
+loss: 0.0002215
+loss: 0.0001987
+loss: 0.0001818
+loss: 0.0001811
+loss: 0.0001429
+loss: 0.0002155
+Time Elapsed for This Epoch: 00:00:00
+
+Time Elapsed for This Validation: 00:00:00
+accuracy: 78.51782 %
+Best Accuracy: 81.33208 %, Best Epoch: 0006
+-------------------------------------------------------------------
+
+-------------------------------------------------------------------
+Epoch: 51
+loss: 0.0004371
+loss: 0.0000728
+loss: 0.0000582
+loss: 0.0003696
+loss: 0.0000676
+loss: 0.0002203
+Time Elapsed for This Epoch: 00:00:00
+
+Time Elapsed for This Validation: 00:00:00
+accuracy: 79.08068 %
+Best Accuracy: 81.33208 %, Best Epoch: 0006
+-------------------------------------------------------------------
+
+Training has been Completed
+Best Model has been Saved
+CNN-non-static
+Best Accuracy: 81.33208, Best Epoch: 0006

@@ -27,6 +27,8 @@ def train(model, num_epochs, learning_rate, mini_batch_size):
     best_accuracy = 0.0
     best_epoch = 0
     
+    #print(classifier.static_check(0)) #you can check CNN-static's Embedding doesn't change during training
+    
     for epoch in range(1, num_epochs + 1):
         
         start_time = time.time()
@@ -63,6 +65,8 @@ def train(model, num_epochs, learning_rate, mini_batch_size):
             classifier.save(epoch = epoch, model = model)
         print('Best Accuracy: %.5f %%, Best Epoch: %04d' %(best_accuracy, best_epoch))
         print('-------------------------------------------------------------------\n')
+        
+    #print(classifier.static_check(0)) #you can check CNN-static's Embedding doesn't change during training
     
     print('Training has been Completed')
     print('Best Model has been Saved')

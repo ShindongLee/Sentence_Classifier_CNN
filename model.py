@@ -13,16 +13,16 @@ class Classifier(object):
         self.model = model
         print(self.model)
         
-        if self.model != 'CNN-multichannel;':
+        if self.model != 'CNN-multichannel':
             self.cnn = CNN(word_size).to(self.device)
             self.cnn.embedding.weight.data.copy_(embedding)
             if self.model == 'CNN-static':
-                self.cnn.embedding.requires_grad = False
+                self.cnn.embedding.weight.requires_grad = False
         else:
             self.cnn = CNN_multichannel(word_size).to(self.device)
-            self.cnn.embedding_staitc.weight.data.copy_(embedding)
+            self.cnn.embedding_static.weight.data.copy_(embedding)
             self.cnn.embedding_non_static.weight.data.copy_(embedding)
-            self.cnn.embedding_static.requires_grad = False
+            self.cnn.embedding_static.weight.requires_grad = False
         
         self.learning_rate = learning_rate
         self.optimizer = optim.Adam(self.cnn.parameters(), lr = self.learning_rate)
@@ -54,6 +54,15 @@ class Classifier(object):
         self.cnn.eval()
         sentence_idx = torch.tensor(sentence_idx, dtype = torch.long).to(self.device)
         return self.cnn(sentence_idx)
+        
+    def static_check(self, word_idx = 0):
+        self.cnn.eval()
+        word_idx = torch.tensor(word_idx, dtype = torch.long).to(self.device)
+        
+        if self.model != 'CNN-multichannel':
+            return self.cnn.embedding(word_idx)
+        else:
+            return self.cnn.embedding_static(word_idx)
        
     def save(self, epoch, model):
         path = './model/' + model + '.pt'
