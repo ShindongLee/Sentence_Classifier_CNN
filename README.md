@@ -9,6 +9,12 @@ Korea University
 (paper: https://arxiv.org/pdf/1408.5882.pdf)  
 (original implementation by Kim Yoon with Theano: https://github.com/yoonkim/CNN_sentence)  
 
+Movie Reivew Dataset: (It's already inside the repo)  
+(http://www.cs.cornell.edu/People/pabo/movie-review-data/rt-polaritydata.tar.gz)
+
+## Performance
+
+
 ## How to Run
 
 1. download GoogleNews-vectors-negative300.bin from (https://github.com/mmihaltz/word2vec-GoogleNews-vectors)  
