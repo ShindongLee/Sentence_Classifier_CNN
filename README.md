@@ -4,6 +4,19 @@ Shindong Lee
 
 Korea University
 
+## Performance
+
+<p align="center">
+Accuracy on MR dataset (%)
+
+|              | This Implementation |  Kim's Paper |
+| :---         |     :---:      |     :---:     |
+| CNN-rand   | ** **     | 76.1    |
+| CNN-static     | ** **       | 81.0      |
+| CNN-non-static  |  ** **    | 81.5    |
+| CNN-multichannel     |  ** **     | 81.1      |
+</p>
+
 ## Reference
 "Convolutional Neural Networks for Sentence Classification" by Kim Yoon  
 (paper: https://arxiv.org/pdf/1408.5882.pdf)  
@@ -11,9 +24,6 @@ Korea University
 
 Movie Reivew Dataset: (It's already inside the repo)  
 (http://www.cs.cornell.edu/People/pabo/movie-review-data/rt-polaritydata.tar.gz)
-
-## Performance
-
 
 ## How to Run
 
