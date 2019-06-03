@@ -17,7 +17,7 @@ Accuracy on MR dataset (%)
 
 
 <img src = "./result/CNN-rand.png" width="45%"> <img src = "./result/CNN-static.png" width="45%">
-<img src = "./result/CNN-non-static.png" width="45%"> <img src = "./result/CNN-mulitchannel.png" width="45%">
+<img src = "./result/CNN-non-static.png" width="45%"> <img src = "./result/CNN-multichannel.png" width="45%">
 
 ![](./result/CNN-rand-result.png?raw=true "Title")
 ![](./result/CNN-static-result.png?raw=true "Title")
