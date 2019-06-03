@@ -12,10 +12,10 @@ Accuracy on MR dataset (%)
 <center>
 |              | This Implementation |  Kim's Paper |
 | :---         |     :---:      |     :---:     |
-| CNN-rand   | **78.2** | 76.1 |
-| CNN-static     | **81.2** | 81.0 |
-| CNN-non-static  |  **81.9**    | 81.5 |
-| CNN-multichannel     |  ** ** | 81.1 |
+| CNN-rand   | 78.2 | 76.1 |
+| CNN-static     | 81.2 | 81.0 |
+| CNN-non-static  |  81.9    | 81.5 |
+| CNN-multichannel     |  | 81.1 |
 </center>
 
 
