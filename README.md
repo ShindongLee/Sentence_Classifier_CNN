@@ -8,14 +8,16 @@ Korea University
 
 <p align="center">
 Accuracy on MR dataset (%)
-
+</p>
+<center>
 |              | This Implementation |  Kim's Paper |
 | :---         |     :---:      |     :---:     |
-| CNN-rand   | ** **     | 76.1    |
-| CNN-static     | ** **       | 81.0      |
-| CNN-non-static  |  ** **    | 81.5    |
+| CNN-rand   | **78.2**     | 76.1    |
+| CNN-static     | **81.2**       | 81.0      |
+| CNN-non-static  |  **81.9**    | 81.5    |
 | CNN-multichannel     |  ** **     | 81.1      |
-</p>
+</center>
+
 
 ## Reference
 "Convolutional Neural Networks for Sentence Classification" by Kim Yoon  
