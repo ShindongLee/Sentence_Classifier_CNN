@@ -4,6 +4,10 @@ Shindong Lee
 
 Korea University
 
+## Overview
+
+This is Pytorch implementation of the paper "Convolutional Neural Networks for Sentence Classification" by Kim Yoon
+
 ## Performance
 
 Accuracy on MR dataset (%)
