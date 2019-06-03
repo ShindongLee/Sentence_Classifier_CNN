@@ -26,7 +26,7 @@ Accuracy on MR dataset (%)
 
 This Implementation is compatible with both CPU and GPU  
 
-Using RXT 2080ti,
+With GPU RTX 2080ti,
 
 Time for preprocessing < 1 minute  
 Time for training 1 epoch < 1 second  
@@ -67,3 +67,5 @@ $ python train.py --model CNN-rand
 ```
 
 model should be one of [CNN-rand, CNN-static, CNN-non-static, CNN-multichannel]  
+
+If you want to resample test set from MR dataset, just remove 4 files [ train_data_pos.txt, train_data_neg.txt, test_data_pos.txt, test_data_neg.txt ] and run the code.
